@@ -22,10 +22,10 @@ namespace Struttura_Dati_1
                 }
             }
             using (StreamWriter sw = new StreamWriter(FILE_NAME1))
-            {
+            { 
                 for (int i = list.Count - 1; i >= 0; i--)
                 {
-                    sw.WriteLine(list[i]);
+                    sw.WriteLine(list[i]); 
                 }
             }            
         }
